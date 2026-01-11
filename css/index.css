@@ -1,0 +1,136 @@
+@charset "utf-8";
+/*CSS Document*/
+
+	/* ------------------------------------------------ section.sec_visual ------------------------------------------------*/
+	section.sec_visual { overflow: hidden; position: relative; width:1200px; height:450px; margin:0px auto 50px auto; }	
+	section.sec_visual > div.slides {  position: absolute; top: 0; left: 0; width: 100%; height: 450px;  }
+	section.sec_visual > div.s_0 { transform: translateX(-100%); z-index: 5;  }
+	section.sec_visual > div.s_1 {z-index: 10;}
+	section.sec_visual > div.s_2 { transform: translateX(100%); z-index: 5;  }
+	section.sec_visual > div.slides:nth-of-type(1) {display:none; background: url("../images/section_visual01.png") no-repeat  center center;  }
+	div.slides_in { font-size: 22px; text-align: center; margin-top: 180px;  font-family: 'NotoSansKR-Medium';  }
+	div.slides_in strong { font-size: 35px; color:#ab1644;  font-weight: bold; }
+	section.sec_visual > div.slides:nth-of-type(2) { background: url("../images/section_visual02.png") no-repeat center center; }
+	section.sec_visual > div.slides:nth-of-type(3) { background: url("../images/section_visual03.png") no-repeat center center;  }
+	
+	section.sec_visual > div.info { position: absolute; left: 50%; top: 92%; z-index: 15; text-align: center;  transform: translate(-50%, -50%); }
+	section.sec_visual > div.info > p.pagination > button { display: inline-block;  padding: 0 10px; margin: auto 0;} 
+	section.sec_visual > div.info > p.pagination > button > span { position: relative;display: block; width: 12px; height: 12px; border-radius: 50%; border: 1px solid #3b3939; font-size: 1px; background: #fff; text-indent: -9999em;  }
+	section.sec_visual > div.info > p.pagination > button.active > span { background: #ab1644; }
+	section.sec_visual > div.info > p.pagination > button > span:hover { background: #ab1644; }
+	section.sec_visual > div.info > p.pagination > button:hover > span::after { width: 100%; transition: width 0.2s ease-in; }
+
+    section.sec_visual div { position:absolute; top:27%; left:10%; text-align: left; }
+    section.sec_visual div p.eyebrow { font-size: 20px;  margin: 0px 0 20px 0; }
+	section.sec_visual div p.eyebrow02 { font-size: 36px; font-weight: bold; font-family: 'NotoSansKR-Regular'; margin-bottom: 45px; }
+	section.sec_visual div a.view { padding: 9px 20px; font-size: 15px;   color: #fff; background-color:#a50034; border-radius: 7px; width:125px; height: 30px;  }
+	section.sec_visual div a.view span {   font-family: 'NotoSansKR-Regular';  }
+	section.sec_visual div.slides_in3 p { color: #fff; }
+	/* ------------------------------------------------ section.sec_best ------------------------------------------------*/
+	section.sec_best { width: 100%; height: auto;}
+	section.sec_best p.best_title { text-align: center; font-size: 30px; }
+	section.sec_best p.best_title > span { color: #a50034; font-family: 'NotoSansKR-Medium'; font-weight: bold; }
+	section.sec_best p.kr_title { text-align: center; color: #484848; font-size: 20px; }
+
+	section.sec_best > div.inner_wrap > div.menu { padding: 30px 0 50px 0; width: 1020px; margin: 0 auto; overflow:hidden;  }
+	section.sec_best > div.inner_wrap > div.menu > ul { width:400%; transition: left 0.5s ease-out; }
+	section.sec_best > div.inner_wrap > div.menu div.info { width: 340px; height: 400px; border: 1px solid #e2e2e2; }
+	section.sec_best > div.inner_wrap > div.menu > ul > li { float: left;  text-align: center;  }
+	section.sec_best > div.inner_wrap > div.menu > ul > li  a { display: block; width: 100%; height: auto; }
+	section.sec_best > div.inner_wrap > div.menu> ul > li  a > img { display: block; width: 100%;  }
+	section.sec_best > div.inner_wrap > div.menu  ul > li  a > p.title { font-family: 'NotoSansKR-Medium'; margin-top: 20px; text-align: center;  font-size: 17px; font-weight: }
+	section.sec_best > div.inner_wrap > div.menu  ul > li  a > p.title2 { font-family: 'NotoSansKR-Medium'; margin-top: 35px; text-align: center;  font-size: 17px; font-weight: }
+	section.sec_best > div.inner_wrap > div.menu  ul > li  a > p.title_en { font-size: 14px; color: #8b8b8b; margin-top: 5px; }
+	section.sec_best > div.inner_wrap > div.menu  ul > li  a:hover > p.title { color: #a50034;  }
+	section.sec_best > div.inner_wrap > div.menu div.info:hover { border-color: black; }
+	
+	section.sec_best > div.inner_wrap { position: relative; width: 100%; overflow:hidden;  }
+	section.sec_best > div.inner_wrap > button { display: block; position: absolute; top: 0; z-index: 50; width: 91px; height: 37px;
+	text-indent: 100%; white-space: nowrap; overflow: hidden; margin-top: 280px; }
+	section.sec_best > div.inner_wrap > button#btn_prev { left: 0; background: url("../images/left_arrow.png") no-repeat right 0; }
+	section.sec_best > div.inner_wrap > button#btn_next { right: 0; background: url("../images/right_arrow.png") no-repeat left 0; }
+	/*�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�section.banner_slides�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�*/
+	section.banner_slides { position: relative; width: 100%; height: 162px;  }
+	section.banner_slides > div.banner { width: 100%; height: 162px; overflow: hidden; }
+	section.banner_slides > div.banner > ul { width:5000%;  transition: left 0.5s ease-out; }
+	section.banner_slides > div.banner > ul > li { float: left; }
+	section.banner_slides > div.banner ul li div.info { position: absolute; top: 25%; left: 42.3%; text-align: center; color: #fff; }
+	section.banner_slides > div.banner div.info p.title_en { font-size: 18px; padding-bottom: 15px; }
+	section.banner_slides > div.banner div.info p.title { font-size: 25px; font-weight: bold;  }
+	section.banner_slides button { display: block; position: absolute; top: 0; z-index: 50; width: 50px; height: 100%;
+	text-indent: 100%; white-space: nowrap; overflow: hidden; }
+	section.banner_slides button#prev { left: 360px; background: url("../images/leftarrow.png") no-repeat right 50%; }
+	section.banner_slides button#next { right: 360px; background: url("../images/rightarrow.png") no-repeat left 50%; }
+	/*�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�section.rental_products�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�*/
+	section.rental_products { width: 100%; height: auto; background-color: #f8f8f8; padding: 50px 0 70px 0; }
+	section.rental_products > div.inner_wrap { width: 100%; height: auto; text-align: center; }
+	section.rental_products > div.inner_wrap > p.title { font-size: 30px; }
+	section.rental_products > div.inner_wrap > p.title > span#recommend { font-weight: bold;  }
+	section.rental_products > div.inner_wrap > p.title_en { font-size: 20px; color: #484848; padding: 10px 0 50px 0; }
+	section.rental_products div.water_div { width: 100%; height: auto; border-top: 1px solid #000; margin: 0 auto; }
+	section.rental_products div.water_div ul { width: 100%; height: 930px; }
+	section.rental_products div.water_div ul li { float: left; background-color: #fff; width: 25%; height: 427px; border: 1px solid #e2e2e2; }
+	section.rental_products div.info1 p.title { text-align: left; padding: 30px 0 0 30px; font-size: 25px; font-weight: bold; }
+	section.rental_products div.info1 p.title_en { text-align: left; padding: 0 0 25px 30px; font-size: 25px; }
+	section.rental_products div.info1 p.plus { text-align: left; padding: 0 0 7px 30px;  }
+	section.rental_products div.info1 p.plus span.click { background-color: #a50034; padding: 7px 15px; border-radius: 10px; color: #fff; }
+	section.rental_products div.info p.title { font-family: 'NotoSansKR-Medium'; padding: 20px 0 5px 0; }
+	section.rental_products div.info p.title_en { font-size: 14px; color: #8b8b8b; }
+	section.rental_products div.info_view { width: 100%; height: 94px; padding: 30px 0; font-size: 18px; }
+	section.rental_products div.info_view span { padding: 8px 25px; border-radius: 15px; }
+	section.rental_products div.info_view span#apply { background-color: #a50034; color: #fff; margin-right: 10px;  }
+	section.rental_products div.info_view span#view { background-color: #fff; border: 0.8px solid #666666; }
+
+	section.rental_products div.aircleaner_div { width: 100%; height: auto; border-top: 1px solid #000; margin: 0 auto;  }
+	section.rental_products div.aircleaner_div ul { width: 100%; height: 930px; }
+	section.rental_products div.aircleaner_div ul li { float: left; background-color: #fff; width: 300px; height: 427px; border: 1px solid #e2e2e2;  margin: 0 auto; }
+
+	section.rental_products div.dryer_div { width: 100%; height: auto; border-top: 1px solid #000;  margin: 0 auto; }
+	section.rental_products div.dryer_div ul { width: 100%; height: 505px; }
+	section.rental_products div.dryer_div ul li { float: left; background-color: #fff; width: 300px; height: 427px; border: 1px solid #e2e2e2; }
+	section.rental_products div.info1 p.plus2 { text-align: left; padding: 0 0 19px 30px;  }
+	section.rental_products div.info1 p.plus2 span.click { background-color: #a50034; padding: 7px 15px; border-radius: 10px; color: #fff; }
+
+	section.rental_products div.styler_div { width: 100%; height: auto; border-top: 1px solid #000;  margin: 0 auto;  }
+	section.rental_products div.styler_div ul { width: 100%; height: 505px; }
+	section.rental_products div.styler_div ul li { float: left; background-color: #fff; width: 300px; height: 427px; border: 1px solid #e2e2e2; }
+
+	section.rental_products div.electricrange_div { width: 100%; height: auto; border-top: 1px solid #000;  margin: 0 auto; }
+	section.rental_products div.electricrange_div ul { width: 100%; height: 930px; }
+	section.rental_products div.electricrange_div ul li { float: left; background-color: #fff; width: 300px; height: 427px; border: 1px solid #e2e2e2; }
+
+	section.rental_products div.massagechiar_div { width: 100%; height: auto; border-top: 1px solid #000;  margin: 0 auto; }
+	section.rental_products div.massagechiar_div ul { width: 100%; height: 505px; }
+	section.rental_products div.massagechiar_div ul li { float: left; background-color: #fff; width: 300px; height: 427px; border: 1px solid #e2e2e2; }
+
+	section.rental_products div.beer_div { width: 50%; height: auto; border-top: 1px solid #000; }
+	section.rental_products div.beer_div ul { width: 100%; height: 505px; }
+	section.rental_products div.beer_div ul li { float: left; background-color: #fff; width: 300px; height: 427px; border: 1px solid #e2e2e2; }
+	section.rental_products div.beer_div p.title_beer { font-family: 'NotoSansKR-Medium'; padding: 42px 0 5px 0; }
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+	
+	
+
+
+	
+
+	
+
+/*--------   Desktop(end)   -----*/

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+
+/*-----------------------------------------------section.slide---------------------------------------------------------*/
+	section.slide { width: 100%; height: 500px; margin-top: 100px; }
+	section.slide > div.inner_wrap { width: 100%; height: 500px; margin-top: 100px; }
+	section.slide > div.inner_wrap > div.img_slide { position: relative; float: left; width: m50%; height: 500px; overflow:hidden; }
+	section.slide > div.inner_wrap > div.img_slide { width: 600px; margin: 0 auto; overflow:hidden;  }
+	section.slide > div.inner_wrap > div.img_slide ul { width:400%; transition: left 0.5s ease-out; }
+	section.slide > div.inner_wrap > div.img_slide ul li { float: left;  text-align: center; }
+
+	section.slide > div.inner_wrap button { display: block; position: absolute; top: 0; z-index: 50; width: 40px; height: 40px; text-indent: 100%; white-space: nowrap; overflow: hidden; margin-top: 230px; }
+	section.slide > div.inner_wrap  button#btn_prev { left: 0; background: url("../images/btnleft.png") no-repeat right 0; }
+	section.slide > div.inner_wrap button#btn_next { right: 0; background: url("../images/btnright.png") no-repeat left 0; }
+	section.slide > div.inner_wrap > div.product_information { float: left; width: 500px; height: 500px;  margin-left: 100px; }
+	section.slide > div.inner_wrap > div.product_information > div.title { height: 117px; width: 100%; }
+	section.slide > div.inner_wrap > div.product_information > div.title > p.rental_title { font-size: 18px; padding-bottom: 15px;  }
+	section.slide > div.inner_wrap > div.product_information > div.title > p.rental_name { font-size: 25px; font-weight: bold; }
+	section.slide > div.inner_wrap > div.product_information > div.title > p.rental_name > span { padding-left: 10px; }
+	section.slide > div.inner_wrap > div.product_information > div.title > p.rental_name > span > img { vertical-align: middle; }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox { height:120.5px; width: 100%; margin-top: 15px;  border-top: 1px solid #e9e9e9; }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox p { font-size: 15px; padding-bottom: 13px; }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox p span { color: #818181; }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox p.model_name { padding-top: 13px;  }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox p.product span { padding-right: 20px; font-family: 'NotoSansKR-Regular'; }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox p.model_name > span { padding-right: 35px; font-family: 'NotoSansKR-Regular';  }
+	section.slide > div.inner_wrap > div.product_information > div.title_infobox p.color > span { padding-right: 48px; font-family: 'NotoSansKR-Regular'; }
+	/*�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�select�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�*/
+	section.slide > div.inner_wrap > div.product_information div.title_info{ width: 100%; height: 168.5px; color: #818181; padding: 27px 20px; background-color: #f0f0f0;  }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.left { float: left; width: 50%; height: 104.5px;  }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right { float: left; width: 50%; height: 104.5px; padding: 9px 45px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.left p{ font-size: 15px; margin-bottom:13px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.left span.use { padding-left: 3px; font-size: 15px;  }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.left select { border: 1px solid #ddd; border-radius: 2px; height: 33px; color: #222; padding: 5px; font-size: 12px; }
+	/*�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�ī���������� �ڼ�������ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�*/
+	section.slide > div.inner_wrap > div.product_information div.title_info div.left div.card_view { margin-top: 21px; padding: 3px 13px; font-size: 14px; background-color: #666; width: 178px; height: 28px; border-radius: 7px;}
+	section.slide > div.inner_wrap > div.product_information div.title_info div.left div.card_view a { color: #fff; }
+	/*�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�ī���������� �ڼ������� (end) �ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�*/
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.best_care { display: block; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.best_care p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.best_care p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.best_care p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.best_care p strong.three { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.best_care p strong.four { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.wooribank_bestrental { display: none; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.wooribank_bestrental p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.wooribank_bestrental p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.wooribank_bestrental p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.wooribank_bestrental p strong.three { padding-left:22px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.wooribank_bestrental p strong.four { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.hyeondaeM_Edition3 { display: none; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.hyeondaeM_Edition3 p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.hyeondaeM_Edition3 p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.hyeondaeM_Edition3 p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.hyeondaeM_Edition3 p strong.three { padding-left:22px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.hyeondaeM_Edition3 p strong.four { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kebhana_lgrental_service { display: none; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kebhana_lgrental_service p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kebhana_lgrental_service p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kebhana_lgrental_service p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kebhana_lgrental_service p strong.three { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kebhana_lgrental_service p strong.four { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.nonghyup_allone_lgbest { display: none; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.nonghyup_allone_lgbest p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.nonghyup_allone_lgbest p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.nonghyup_allone_lgbest p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.nonghyup_allone_lgbest p strong.three { padding-left:22px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.nonghyup_allone_lgbest p strong.four { padding-left:31px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.shinhan_rentalah { display: none; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.shinhan_rentalah p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.shinhan_rentalah p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.shinhan_rentalah p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.shinhan_rentalah p strong.three { padding-left:22px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.shinhan_rentalah p strong.four { padding-left:22px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kbstar_lgkbnation { display: none; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kbstar_lgkbnation p { font-size: 14px; color: #000; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kbstar_lgkbnation p strong { padding-left: 10px;  color: #a50034;  font-size: 16px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kbstar_lgkbnation p strong.first { padding-left: 17px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kbstar_lgkbnation p strong.three { padding-left:22px; }
+	section.slide > div.inner_wrap > div.product_information div.title_info div.right div.kbstar_lgkbnation p strong.four { padding-left:22px; }
+	/*�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�select end�ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ�*/
+	section.slide > div.inner_wrap p.consult { text-align: center; margin-top: 39px; }
+	section.slide > div.inner_wrap span.consult { background-color: #a50034; padding: 13px 65px; color: #fff; font-size: 18px; border-radius: 10px; }
+/*-----------------------------------------------section.responsive---------------------------------------------------------*/
+	section.responsive { width: 100%; height: 120px; padding-top: 50px;  text-align: center; }
+	section.responsive > div.inner_wrap { width:100%; height: auto; }
+	section.responsive > div.inner_wrap > div.click { position: relative; width: 100%; height: 70px; font-size: 18px; }
+	section.responsive > div.inner_wrap > div.click a div.click1:hover { background-color: #333333; }
+	section.responsive > div.inner_wrap > div.click a div.click2:hover { background-color: #333333; }
+	section.responsive > div.inner_wrap > div.click a div.click3:hover { background-color: #333333; }
+	section.responsive > div.inner_wrap > div.click a div.click1 {  float: left; top:0; left:0 ;width: 390px; height: 70px; background-color: #a5a5a5; margin-right: 15px; color: #fff;padding-top:20px; }
+	section.responsive > div.inner_wrap > div.click a div.click2 { float: left;  top:0; left:50% ;width: 390px; height:70px; background-color: #a5a5a5; margin-right: 15px; color: #fff;padding-top:20px;}
+	section.responsive > div.inner_wrap > div.click a div.click3 {  float: left; top:0; left:0 ;width: 390px; height: 70px; background-color: #a5a5a5; padding-top:20px; color: #fff;}
+
+	section.click1img { display:block; text-align: center;  }
+	section.click1img > div.inner_wrap { width:100%; height:6456px; }
+	section.click1img > div.inner_wrap > div.imgs { position: relative; width: 100%; height: auto; font-size: 18px; font-family: 'NotoSansKR-Medium';  } 
+	section.click2img { display: none;  text-align: center;  }
+	section.click2img > div.inner_wrap { width:100%; height: 1820px;  }
+	section.click2img > div.inner_wrap > div.imgs { position: relative; width: 100%; height: auto; font-size: 18px; font-family: 'NotoSansKR-Medium';  } 
+
+	section.click3img { display: none; text-align: center;  }
+	section.click3img > div.inner_wrap { width:100%; height: 240px; padding: 54px 0;  }
+	section.click3img > div.inner_wrap > div.imgs { position: relative; width: 100%; height: auto; font-size: 18px;} 
+	section.click3img > div.inner_wrap > div.imgs > p { position: relative; font-size: 18px; margin-bottom: 70px;   }
+	section.click3img > div.inner_wrap > div.imgs > p:after { content:''; position: absolute; top:43px;right:50%; width: 1px; height: 25px; background-color: #000; text-align: center; }
+	section.click3img > div.inner_wrap > div.imgs > a { font-size: 16px;   font-family: 'NotoSansKR-Regular';}
+	section.click3img > div.inner_wrap > div.imgs > a span { padding: 10px 20px; background-color: #a50034; color: #fff; border-radius: 10px; }
+	
+
+
+
+
+
+
+	
+
+
+	
+	
+
+
+	
+
+	
+

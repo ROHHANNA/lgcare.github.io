@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+
+	/* ------------------------------------------------ section.styler_visual ------------------------------------------------*/
+	section.styler_visual { width: 100%; height: auto; margin-top: 47px; }
+	section.styler_visual > div.inner_wrap { width: 100%; height: 250px; }
+	/* ------------------------------------------------ section.styler_products ------------------------------------------------*/
+	section.styler_products { width: 100%; height: auto;}
+	section.styler_products > div.inner_wrap { width: 100%; height: 664px; } 
+	section.styler_products > div.inner_wrap > p { text-align: center;  font-family: 'NotoSansKR-Medium'; font-size: 25px; padding: 50px 0;  background:url("../images/aircleaner_line.png")no-repeat center 54%;}
+	section.styler_products div.product_s { width: 100%; height: 664px; }
+	section.styler_products div.product_s ul { width: 100%; height: 664px; }
+	section.styler_products div.product_s ul li { float: left; width: 285px; height: 427px; border: 1px solid #e2e2e2; margin-right: 20px; }
+	section.styler_products div.product_s ul li:nth-child(4n) { margin-right: 0; }
+	section.styler_products div.product_s ul li:nth-child(5) { margin-top: 20px; }
+	section.styler_products div.product_s ul li:nth-child(6) { margin-top: 20px; }
+	section.styler_products div.product_s ul li:nth-child(7) { margin-top: 20px; }
+	section.styler_products div.product_s ul li:nth-child(8) { margin-top: 20px; }
+	section.styler_products div.info { text-align: center; }
+	section.styler_products div.info p.title { font-family: 'NotoSansKR-Medium'; padding: 20px 0 5px 0; }
+	section.styler_products div.info p.title_en { font-size: 14px; color: #8b8b8b; }
+	section.styler_products div.info_view { width: 100%; height: 94px; padding: 30px 0; font-size: 18px; }
+	section.styler_products div.info_view span { padding: 8px 25px; border-radius: 15px; }
+	section.styler_products div.info_view span#apply { background-color: #a50034; color: #fff; margin-right: 10px;  }
+	section.styler_products div.info_view span#view { background-color: #fff; border: 0.8px solid #666666; }
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+	
+	
+
+
+	
+
+	
+

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+
+ section.list_nav > div.inner_wrap { padding-top: 120px;height: 100% ; margin: 0 auto;}
+ section.list_nav > div.inner_wrap > ul { float: left; width: 170px; height: 1000px;  }
+
+ section.list_nav > div.inner_wrap > ul > li:nth-child(1) > span { font-size: 18px; font-weight: bold; }
+ section.list_nav > div.inner_wrap > ul > li { font-size: 16px;   }
+ section.list_nav > div.inner_wrap > ul > li > ul > li { margin: 15px 0;position: relative; width: 90%; height: auto;}
+ section.list_nav > div.inner_wrap > ul > li > ul > li:hover > a { color: #a50034;  text-decoration: underline; text-underline-position: under;}
+ section.list_nav > div.inner_wrap > ul > li > ul > li:hover::after { content: ''; position: absolute; bottom:5px; right:0px; width:15px; height: 15px; background:url("../images/check.png")no-repeat; }
+p.title_em { margin-bottom: 30px; }
+
+
+section.infoing { padding-top: 120px; } 
+ section.infoing div.infoing > div.inner_wrap { width: 2777px; height: 61px; border-bottom: 1px solid #d1d1d1;  }
+ section.infoing div.infoing > div.inner_wrap p { color: #333333; padding-top: 10px; font-size: 25px; font-weight: bold; }
+
+  section.lists {  width:100%; height: 2757px; }
+  section.lists > div.inner_wrap { width:100%; height: 2850px;margin-top: 40px; font-size: 14px; color: #737373;  }
+  section.lists > div.inner_wrap p.important { font-weight: bold; font-size: 16px; color: #a50034; }
+  section.lists > div.inner_wrap span.jk { font-size: 16px; font-weight:medium; color: black; }
+  section.lists > div.inner_wrap p.jk { color: #000; }
+  section.lists > div.inner_wrap p.bold { font-weight: bold; }
+
+
+	
+
+
+
+
+
+
+	
+
+
+	
+	
+
+
+	
+
+	
+

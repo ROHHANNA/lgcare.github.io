@@ -1,0 +1,166 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+
+/*-----------------------------------------------section.slide---------------------------------------------------------*/
+	section.card { width: 100%; height: 170px; margin-top: 50px; }
+	section.card > div.inner_wrap { width: 100%; height: 170px;  }
+	section.card > div.inner_wrap > p.title { font-size: 28px; text-align: center; padding: 65px 0; color: #000; font-family: 'NotoSansKR-Medium'; }
+  /*-----------------------------------------------section.card_products---------------------------------------------------------*/
+	section.card_products { width: 100%; height: 1080px; }
+	section.card_products > div.inner_wrap { width: 100%; height: auto; }
+	/*-----------------------------------------------section.lotte_lgspecial---------------------------------------------------------*/
+	section.card_products > div.inner_wrap div.Issue { width: 100%; height: 60px; }
+	section.card_products > div.inner_wrap  div.automatic { float:left; width: 50%; height: 60px; background-color: #fff;  border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-top: 1px solid #ddd; 
+	border-bottom: 1px solid #fff; border-radius: 50px 50px 0 0; }
+	section.card_products > div.inner_wrap  div.automatic > p { text-align: center; font-size: 17px; padding-top: 17px; font-family: 'NotoSansKR-Medium'; color: #e70049; }
+	section.card_products > div.inner_wrap  div.etc_card { float:left; width: 50%; height: 60px; background-color: #fafafa;  border: 1px solid #ddd; border-radius: 50px 50px 0 0; }
+	section.card_products > div.inner_wrap  div.etc_card > p { text-align: center; font-size: 17px; padding-top: 17px; font-family: 'NotoSansKR-Medium'; color: #e70049; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 { width: 100%; height: 435px; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable table td { padding-top: 12px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable table td.down { padding-top: 12px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.hyeondaeM_Edition3 > div.lotte_lgspecial_list ul li.first { padding-top: 20px; }
+	span.sale_icon { color: #a50034; padding-right: 8px; }
+	span.img { padding-right: 8px; }
+	span.img > img { vertical-align: middle; }
+	/*-----------------------------------------------section.kebhana_lgrental_servicel---------------------------------------------------------*/
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel { width: 100%; height: 435px; border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;  }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable table td { padding-top: 22px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable table td.down { padding-top: 12px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.kebhana_lgrental_servicel > div.kebhana_lgrental_servicel_list ul li.first { padding-top: 6px; }
+	/*-----------------------------------------------section.shinhan_rentalah---------------------------------------------------------*/
+	section.card_products > div.inner_wrap > div.shinhan_rentalah { width: 100%; height: 435px;border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable div.cardtable table td { padding-top: 33px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.shinhan_rentalah > div.shinhan_rentalah_list ul li.first { padding-top: 20px; }
+	/*-----------------------------------------------section.best_care---------------------------------------------------------*/
+	section.card_products > div.inner_wrap > div.best_care { display: none; width: 100%; height: 435px;border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+	section.card_products > div.inner_wrap > div.best_care > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable table td { padding-top: 22px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable table td.down { padding-top: 12px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.best_care > div.best_care_list ul li.first { padding-top: 20px; }
+	/*-----------------------------------------------section.wooribank_bestrental---------------------------------------------------------*/
+	section.card_products > div.inner_wrap > div.wooribank_bestrental { display: none; width: 100%; height: 435px;border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable table td { padding-top: 22px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable table td.down { padding-top: 12px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.wooribank_bestrental > div.wooribank_bestrental_list ul li.first { padding-top: 20px; }
+	/*-----------------------------------------------section.nonghyup_allone_lgbest---------------------------------------------------------*/
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest { display: none; width: 100%; height: 435px;border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable table td { padding-top: 12px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable table td.down { padding-top: 12px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.nonghyup_allone_lgbest > div.nonghyup_allone_lgbest_list ul li.first { padding-top: 20px; }
+	/*-----------------------------------------------section.kbstar_lgkbnation---------------------------------------------------------*/
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation { display: none; width: 100%; height: 435px;border-right: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div { float: left; width: 399px; height: 373px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_card { padding: 30px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_card > p.lotte { font-size: 21px;  padding-bottom: 50px;  font-family: 'NotoSansKR-Medium'; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable { padding: 30px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable > p.card_sale { font-size: 20px; padding-bottom: 30px;  font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable { width: 340px; height: 243px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable table { width: 340px; height: 243px; text-align: center; border-top: 2px solid #000; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable table th { padding: 10px 0; font-size: 16px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable table td { padding-top: 22px; font-size: 15px; border-left: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #000; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable table td.down { padding-top: 12px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable table td.down p.time { font-size: 14px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_cardtable div.cardtable table td.down2 > p { color: #a50034; font-weight: bold; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_list { padding: 30px; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_list ul { font-size: 15px; padding-bottom: 30px; font-family: 'NotoSansKR-Medium';  }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_list ul li { font-size: 14px; color: #7f7f7f; font-family: 'NotoSansKR-Regular'; }
+	section.card_products > div.inner_wrap > div.kbstar_lgkbnation > div.kbstar_lgkbnation_list ul li.first { padding-top: 20px; }
+
+
+
+	
+
+
+	
+
+
+	
+	
+
+
+	
+
+	
+

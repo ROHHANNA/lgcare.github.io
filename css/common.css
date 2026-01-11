@@ -1,0 +1,70 @@
+
+@charset "utf-8";
+/*CSS Document*/
+
+
+	
+	body {min-width: 1200px;}
+	div.inner_wrap { width: 100%; max-width: 1200px; margin: 0 auto; }
+	div.inner_wrap2 { width: 100%; max-width: 1200px; margin: 0 auto; }
+	
+	
+	header { top: 0; left: 0; z-index: 90; width: 100%; height: 79px; background: #fff; border-bottom: 1px solid #dfdfdf; } 
+	header > div.inner_wrap { position: relative; height: 80px; width: 100%;}
+	header > div.inner_wrap > h1 { display: block;  height: 100%; position: absolute; left:0; top:0; text-align: center;} 
+	header > div.inner_wrap > h1 > a { display: block; width: 233px; height: 66px; font-size: 1px; text-indent: -99999em; background:url("../images/logo.png")no-repeat center center;}
+	header  div.call_main { position: absolute; width: 217px; top:0; right: 0;  }
+	header  div.call_main img { float: left;  margin-right: 8px; }
+	header  div.call_main p.title { float: left;  color: #808080; font-size: 17px; }
+	header  div.call_main p.call_umber { font-size: 1.25em; color: #333; font-weight: bold; }
+
+	header  nav {  float: left; width: 100%; border-bottom:1px solid #dfdfdf; background-color: #fff; }
+	header  div.inner_wrap2 { position: relative; height: 45px; width: 100%; }
+	header  nav  ul { width: 100%; text-align: center;  }
+	header  nav  ul > li {  display: inline-block; width: 10%; position: relative;  height: 45px; text-align: center; }
+	header  nav  ul > li > a { display: inline-block; font-size: 16px; height: 50px; padding: 4px 0px; font-family: 'NotoSansKR-Medium'; color: #333333; line-height: 35px; } 
+	header  nav  ul > li > ul { display: none; position: absolute; top: 46px; left: 50%; width: 156px; height: 100px; text-align: center;
+	background-color: #fff; border: 1px solid #dfdfdf; border-top: 0px; transform: translateX(-50%);  }
+	header  nav  ul > li:hover > a { color: #a50034; }
+	header  nav  ul > li:hover > ul { display: block;  }
+	header  nav  ul > li > ul > li { width: 156px;  height: 50px;  font-family: 'NotoSansKR-Regular';}
+	header  nav  ul > li > ul > li:nth-child(1) { border-bottom: 1px solid #dfdfdf; }
+	header  nav  ul > li > ul.clearfix { padding-top: 0px; }
+	header  nav  ul > li > ul > li > a { position: relative; display: inline-block; width: 100%; padding-right: 5px; margin-top: 4px; text-align: center;  font-size: 14px;}
+	header  nav  ul > li > ul > li > a > span { display: none; }
+	header > button { display: none; font-size: 1px; text-indent: -9999em;}
+
+	
+	div.btn_word { position: relative;  top:0; width: 343px; height: 50px;  margin: 20px auto; z-index: 100;}
+	div.btn_word input.search { width: 343px; height: 48px; border-radius: 10px; border: 1px solid;  padding: 0 20px; font-size: 16px; font-family: 'NotoSansKR-Medium'; margin-top: 4px; }
+	div.btn_word input::placeholder { font-size: 16px; color: #848383; }
+	div.btn_word input.submit { position: absolute; top:9px; right:1px;  background:url("../images/search.png")no-repeat center center; border: none;
+	color: #fff; padding: 10px 20px; cursor: pointer; margin: 0 5px; vertical-align: middle; font-size: 15px; text-indent: -999em; }
+
+
+
+	/* footer */
+	footer { background: #fff; }
+	footer > div.footer_utils { background-color: #333333; padding: 10px 0; }
+	footer > div.footer_utils > div.inner_wrap2 > a { color: #fff;  font-size: 15px; font-family: 'NotoSansKR-Medium'; }
+	footer > div.inner_wrap { margin: 30px auto;padding-bottom:30px; }
+	footer > div.inner_wrap > ul { margin: 0 0 11px 161px; }
+	footer > div.inner_wrap > ul > li { display: inline-block; position: relative; padding: 0 20px; font-size: 0.875em; line-height: 1; }
+	footer > div.inner_wrap > ul > li > a { display: inline-block; color: #666; }
+	footer > div.inner_wrap > ul > li::after { content: ""; display: block; position: absolute; right: 0; top: 1px; width: 1px; height: 1em; background: #b1b1b1; }
+	footer > div.inner_wrap > ul > li:last-child::after { display: none; }
+	footer > div.inner_wrap > div.logo { display: table-cell; width: 80px; text-align: center; padding-top: 10px; }
+	footer > div.inner_wrap > div.info { display: table-cell; width: 880px; padding-left: 20px; font-size: 12px; color: #666; vertical-align: middle; }
+	footer > div.inner_wrap > div.info  p { font-size: 12px;  }
+	footer > div.inner_wrap > div.info > p > span { margin-right: 20px;}
+	footer > div.inner_wrap > div.info br { display: none; }
+	footer select { width: 132px; height: 24px; margin-left: 952px; font-size: 12px; }
+	footer select option { vertical-align: bottom; }
+	
+	/*scroll_top*/
+	div.scroll_top { position: fixed; width: 50px; height: 50px; bottom: 15px; right: 10px; z-index: 100; }
+
+
+
+
+/*--------   Desktop(end)   -----*/
